@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnetcore.For.Aws.Service", "src\Dotnetcore.For.Aws.Service\Dotnetcore.For.Aws.Service.csproj", "{67E84E00-8A60-46EE-8E55-A8BF9417FE2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A96720C-778C-4320-ABB8-6417FD88F8C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BB8D7D27-5D5B-4A11-ABE9-30F74F256025}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnetcore.For.Aws.Domain", "src\Dotnetcore.For.Aws.Domain\Dotnetcore.For.Aws.Domain.csproj", "{91276A98-6373-44D1-B4B7-71D69BB3D201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnetcore.For.Aws.Service.Tests", "tests\Dotnetcore.For.Aws.Service.Tests\Dotnetcore.For.Aws.Service.Tests.csproj", "{BD4E9FC8-3B45-46F8-8661-226C54825814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{ED685B34-B94A-46B9-A3C8-0BF313A6B71A}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67E84E00-8A60-46EE-8E55-A8BF9417FE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E84E00-8A60-46EE-8E55-A8BF9417FE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E84E00-8A60-46EE-8E55-A8BF9417FE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E84E00-8A60-46EE-8E55-A8BF9417FE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91276A98-6373-44D1-B4B7-71D69BB3D201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91276A98-6373-44D1-B4B7-71D69BB3D201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91276A98-6373-44D1-B4B7-71D69BB3D201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91276A98-6373-44D1-B4B7-71D69BB3D201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4E9FC8-3B45-46F8-8661-226C54825814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4E9FC8-3B45-46F8-8661-226C54825814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4E9FC8-3B45-46F8-8661-226C54825814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4E9FC8-3B45-46F8-8661-226C54825814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67E84E00-8A60-46EE-8E55-A8BF9417FE2F} = {5A96720C-778C-4320-ABB8-6417FD88F8C4}
+		{91276A98-6373-44D1-B4B7-71D69BB3D201} = {5A96720C-778C-4320-ABB8-6417FD88F8C4}
+		{BD4E9FC8-3B45-46F8-8661-226C54825814} = {BB8D7D27-5D5B-4A11-ABE9-30F74F256025}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7787591-CB2D-42F4-A9C4-5DC5CE662AA4}
+	EndGlobalSection
+EndGlobal

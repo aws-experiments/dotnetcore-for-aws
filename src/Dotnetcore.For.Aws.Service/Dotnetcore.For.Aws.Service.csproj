@@ -3,12 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>Dotnetcore.For.Aws.Service</RootNamespace>
+    <RootNamespace>dotnetcore_for_aws</RootNamespace>
+    <UserSecretsId>0a0a47f8-2b4b-4687-a927-016d2f418424</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="3.3.102.28" />
+    <PackageReference Include="AWSSDK.Core" Version="3.3.103.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dotnetcore.For.Aws.Domain\Dotnetcore.For.Aws.Domain.csproj" />
   </ItemGroup>
 
 </Project>
